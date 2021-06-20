@@ -73,7 +73,7 @@
       <pagination :page='pagination' @get-product="getProducts"></pagination>
     </div>
     <!-- Modal -->
-    <product-modal :temp-product="tempProduct" @update-product="updateProduct"></product-modal>
+    <product-modal :temp-product="tempProduct" :is-new="isNew" @update-product="updateProduct"></product-modal>
     <del-product-modal :temp-product="tempProduct" @del-product="delProduct"></del-product-modal>
     <!-- Modal -->
   </div>

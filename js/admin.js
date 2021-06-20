@@ -124,7 +124,7 @@ const app = createApp({
 });
 
 app.component('productModal', {
-  props: ['tempProduct'],
+  props: ['tempProduct', 'isNew'],
   template: `<div id="productModal" ref="productModal" class="modal fade" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
       <div class="modal-content border-0">
